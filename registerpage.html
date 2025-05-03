@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+body{
+  background-image:url("https://i.pinimg.com/736x/a4/1a/39/a41a39c5137dbaa2ff4b85ced763e6cf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:0%;
+  
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  color:white;
+  color:transparent;
+
+}
+
+.box{
+  width:20%;
+  height:60%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:transparent;
+  border-radius: 19px;
+  backdrop-filter: blur(20px);
+  border:2px solid white;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.5);
+  color:white;
+  top:7%;
+}
+.sigup1{
+  position: absolute;
+  color:white;
+}
+.heading{
+  position:absolute;
+  color:white;
+}
+.placeholding{
+ background-color: transparent;
+ color:white;
+ position:absolute;
+ border: none;
+ border-bottom:1.5px solid white;
+ left:18.5%;
+ margin-top:9%;
+ font-size: medium;
+ outline: none;
+}
+::placeholder{
+  color:white;
+  border: none;
+}
+.iconp{
+  color:white;
+  position:absolute;
+  right: 18%;
+  margin-top:-3%;
+
+}
+.boxhead{
+  position:absolute;
+  color:white;
+  top:3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:x-large;
+}
+.topheading{
+  position:absolute;
+  left:43.5%;
+  top:6.5%;
+  font-weight: lighter;
+  color:white;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signupb{
+   position:absolute;
+   background-color: white;
+   color:black;
+   width: 67%;
+   height:5%;
+   border-radius: 8px;
+   border:1.5px solid white;
+   left:17.5%;
+   font-size: medium;
+   box-shadow:0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.loginpage{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  text-align: center;
+  position:absolute;
+  top:90%;
+  left:20%;
+}
+.navbar{
+  float:left;
+  overflow: hidden;
+  background-color: transparent;
+  position: absolute;
+  top:2%;
+
+}
+.navbar a{
+  color:white;
+  padding:12px 35px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+</style>
+
+<div class="navbar">
+  <a class="home1" href="home">Home</a>
+  <a class="suportus"  href="#about us">About Us</a>
+  <a  class="aa" href="#support">Support</a>
+  <a  class="aa" href="#privacy">Privacy Policy</a>
+</div>
+
+
+
+<h3 class="topheading">HIGH-FOOTBALL</h3>
+
+<link rel="stylesheet" href="styles.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<div class="container">
+  <div class="box">
+  <p1 class="boxhead">Signup</p1>
+<form>
+  <div>
+    <div style="color:white">
+    <input  type="email" id="email" name="email" placeholder="Email" class="placeholding"/><br><br>
+    <div class="iconp" ><i class='bx bx-user' ></i></div>
+  </div>
+  </div>
+  <br> <br>
+  <div>
+    <input  class="placeholding" type="password" id="password" name="password" placeholder="Password"><br> <br>
+    <div class="iconp" ><i
+       class='bx bxs-lock-alt'></i></div>
+  </div>
+  <br> <br>
+  <div>
+    <input  class="placeholding" type="password" id="password" name="password" placeholder="Confirm Password"><br> <br>
+    <div class="iconp" ><i class='bx bxs-lock-alt'></i></div>
+  </div>
+
+  <br> <br> <br>
+  
+    <button class="signupb" type="submit" target="_blank" onclick="newp()">Signup</button>
+
+  <div class="loginpage"><p1>Already haven an Account</p1>
+    <a style="color:white;"  href="file:///C:/Users/shalu/OneDrive/Desktop/accessfiles/Loginpageoff.html" target="_blank">Login</a>
+  </div>
+  <br> <br>
+
+</form>
+
+</div>
+</div>
+<button onclick="newp()" >checking</button>
+<script>
+  function newp(){
+    window.open("file:///C:/Users/shalu/OneDrive/Desktop/accessfiles/registersubmitpage.html");
+    
+  }
+  </script>
+
+</body>
+</html>

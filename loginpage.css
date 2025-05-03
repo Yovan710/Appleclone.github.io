@@ -1,0 +1,167 @@
+
+body{
+  background-image:url("https://i.pinimg.com/736x/a4/1a/39/a41a39c5137dbaa2ff4b85ced763e6cf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:0%;
+  
+}
+.intro{
+ text-shadow:0px 2px 4px;
+ font-family:arial;
+ text-align:center;
+ 
+}
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+ 
+}
+
+.box{
+  width:300px;
+  height:430px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border-radius:19px;
+  border:1px solid white;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family:arial;
+  position:relative;
+  
+}
+.navbar{
+  overflow:hidden;
+  color:black;
+  float:left;
+  text-decoration: none;
+  font-size:20px;
+  position:relative;
+  
+
+}
+.trying{
+  overflow: hidden;
+  position:relative;
+
+  
+}
+
+.navbar a{ 
+  color:white;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family:arial;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+}
+
+.navbar a:hover{
+  color:black;
+
+}
+
+.navbar a:active{
+  color:white;
+}
+
+.formc{
+ outline: none;
+ background-color:transparent;
+ font-size:120%;
+ border:1px solid white;
+ left:10%;
+ position:absolute;
+ border:none;
+ outline: none;
+ border-bottom: 1.5px solid white;
+}
+.NBS{
+  font-size: medium;
+ background-color:white;
+ color:black;
+ border-radius:8px;
+ position:absolute;
+ width:220px;
+ height:23.5px;
+}
+.putleft{
+  margin-right:30%;
+
+  position:relative;
+  background-color: transparent;
+}
+.forgetlink{
+  font-size:70%;
+  top:52.5%;
+  left:56.5%;
+  color:white;
+  text-decoration: none;
+  position:absolute;
+}
+.putbleft{
+  position:absolute;
+  left:12.8%;
+}
+.newuser{
+  font-size: 70%;
+  text-align: center;
+}
+.iconc{
+  margin-left:30%;
+}
+::placeholder{
+  color:white;
+  transform: translate(-50);
+}
+.iconp{
+  position: absolute; 
+  right:-23%;
+  margin-top:2%;
+  color:white;
+}
+.aa{
+  text-align: center;
+  padding:12px 35px;
+  text-decoration: none;
+  font-size: medium;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  position:static;
+}
+.navcontainer{
+  position:absolute;
+  text-align:center;
+  color:white;
+  padding:16px 10px;
+  background-color: transparent;
+
+}
+.label1{
+  color:white;
+  position:absolute;
+  background-color: transparent;
+  left:10%;
+  
+
+}
+
+.heading{
+  position:absolute;
+  color:white;
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: x-large;
+  left:42.5%;
+  top:12.5%;
+}
+::placeholder:hover{
+  top:-5px;
+}
+::placeholder:active{
+  top:-5px;
+}
